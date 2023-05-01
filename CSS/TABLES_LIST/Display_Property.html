@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        .unordered-list-1 li {
+            list-style: none;
+        }
+
+        .unordered-list-1 li::before {
+
+            content: '';
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            background-image: url("images/circle.jpg");
+        }
+
+        .unordered-list-2 li {
+            list-style: none;
+        }
+
+        .unordered-list-2 li::before {
+
+            content: '';
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            background-image: url("images/square.png");
+            padding: auto;
+        }
+
+        .unordered-list-3 li {
+            list-style: none;
+        }
+
+        .unordered-list-3 li::before {
+            content: '';
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            background-image: url("images/star.png");
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Pink Frag Event Organizer</h1>
+    <hr>
+    <h3>Wedding Events</h3>
+    <ul class="unordered-list-1">
+        <li>Photography</li>
+        <li>Music Band</li>
+        <li>Henna artist</li>
+        <li>Beautician</li>
+    </ul>
+    <h3>Corporate Events</h3>
+    <ul class="unordered-list-2">
+        <li>Grand Openings</li>
+        <li>Seminars</li>
+        <li>Meetings</li>
+        <li>Team Building</li>
+    </ul>
+    <h3>Social Events</h3>
+    <ul class="unordered-list-3">
+        <li>Birthday party</li>
+        <li>Surprise party</li>
+        <li>Dinner party</li>
+        <li>Garden party</li>
+    </ul>
+</body>
+
+</html>
